@@ -1,0 +1,10 @@
+^C:\USERS\FAWST\DESKTOP\СФМЛТЕСТ\CMAKEFILES\213794405F0A63E757845C2D9509951C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/fawst/Desktop/sfml_sample-main -BC:/Users/fawst/Desktop/сфмлТЕСТ --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/fawst/Desktop/сфмлТЕСТ/sfml_sample.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

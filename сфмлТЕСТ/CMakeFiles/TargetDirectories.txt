@@ -1,0 +1,3 @@
+C:/Users/fawst/Desktop/сфмлТЕСТ/CMakeFiles/sfml_sample.dir
+C:/Users/fawst/Desktop/сфмлТЕСТ/CMakeFiles/ALL_BUILD.dir
+C:/Users/fawst/Desktop/сфмлТЕСТ/CMakeFiles/ZERO_CHECK.dir
